@@ -1,0 +1,66 @@
+body{
+    margin:auto;
+    padding: 10px 10px;
+  }
+  main{
+    background-color:#d3d3d3;
+    
+    padding: 0 auto;
+  }
+  
+  header{
+    text-align: center;
+    background-color: grey solid;
+    font-family: "Georgia", serif;
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 0;
+    
+  }
+  
+  .rick {
+  background-color: white;
+  margin: 0 auto;
+  padding-top:0;
+  padding-bottom:10px;
+  padding-left: 15px;
+  padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    max-height: auto;
+    max-width: 100%;
+    
+  }
+  
+  img{
+    padding-top: 15px;
+    max-height: auto;
+    max-width:100%;
+    display: block;
+  }
+  
+  .caption {
+    margin-top: 8px;       
+  }
+  
+  .tribute-info{
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+  }
+  
+  ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+  
+  }
+  
+  .tribute-info>h2{
+    padding-top: 10px;
+    text-align: center;
+  }
